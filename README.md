@@ -22,23 +22,21 @@ co2 is million tonnes per year; co2_per_capita is tonnes/person/year.
 
 ## Results
 - Earliest / latest valid years: 1990 to 2024.
-- Annual emissions in those years: Check your `results/CHE_summary.csv` for the exact numbers (first_co2_mt and last_co2_mt) and put them here with units (million tonnes).
-- Endpoint percentage change: Put the `endpoint_change_percent` value from your summary CSV here %.
-- Peak emissions year: Put the `peak_year` and `peak_co2_mt` values from your summary CSV here.
-- Latest available per-capita value: Put the `latest_co2_per_capita_t` value here (tonnes/person).
+- Annual emissions in those years: Check your `results/CHE_summary.csv` for the exact numbers (1990 emissions and 2024 emissions) and put them here with units (million tonnes).
+- Endpoint percentage change: -27.35 %.
+- Peak emissions year: 1991 at 45.48% million tonnes.
+- Latest available per-capita value: 3.6 tonnes/person.
 
 ![Annual emissions](figures/CHE_annual_co2.png)
 ![Per-capita emissions](figures/CHE_per_capita.png)
 ![Annual change](figures/CHE_annual_change.png)
 
 ## Interpretation (200-300 words)
-In Switzerland, valid annual CO2 emissions data cover the study period from 1990 ([XX.XX] million tonnes) to 2024 ([XX.XX] million tonnes), representing an overall endpoint percentage change of [XX.XX]%[span_3](start_span)[span_3](end_span)[span_4](start_span)[span_4](end_span). Absolute emissions reached their historical peak in [PEAK_YEAR] at [XX.XX] million tonnes[span_5](start_span)[span_5](end_span)[span_6](start_span)[span_6](end_span). While absolute emissions report total national carbon output in million tonnes, emissions per capita measure individual carbon footprint in tonnes per person[span_7](start_span)[span_7](end_span)[span_8](start_span)[span_8](end_span). Both indicators generally mirror each other in trend for Switzerland, declining over recent decades as population growth was outpaced by reductions in energy intensity[span_9](start_span)[span_9](end_span).
+In Switzerland, valid annual CO2 emissions data cover the study period from 1990 (44.12 million tonnes) to 2024 (32.10 million tonnes), representing an overall endpoint percentage change of -27.24%. Absolute emissions reached their historical peak in 1991 at 46 million tonnes of carbon per year. While absolute emissions report total national carbon output in million tonnes, emissions per capita. This per-capita metric provides a more direct reflection of average domestic consumption intensity, ensuring that demographic shifts do not obscure broader structural decarbonization efforts across the nation.” Both indicators generally mirror each other in trend for Switzerland, declining over recent decades as population growth was outpaced by reductions in energy intensity.
+A plausible driver for Switzerland's long-term emissions decline is its heavy reliance on zero-carbon electricity generation (hydroelectric and nuclear power) combined with aggressive national policies under the Swiss CO2 Act, such as the thermal building insulation program and carbon levying on heating fuels (Swiss Federal Office for the Environment, 2022). Also, the subsequent post-pandemic tracking demonstrates whether this rapid drop represented a brief operational interruption or accelerated Switzerland’s trajectory toward its long-term climate targets.”
 
-A sustained trend visible in the data is the steady, multi-decade reduction in total CO2 emissions following the peak in [PEAK_YEAR], dropping down to [XX.XX] million tonnes by 2024[span_10](start_span)[span_10](end_span). A notable temporary change occurred in 2020, where annual emissions dropped sharply by [XX.XX]% from the previous year due to reduced industrial activity and travel restrictions during the COVID-19 pandemic[span_11](start_span)[span_11](end_span). 
+National emissions patterns are ecologically vital because cumulative global CO2 directly drives climate change, ocean acidification, and habitat disruption[span_12](start_span)[span_12](end_span)[span_13](start_span)[span_13](end_span). However, a key limitation of country-level territorial data is that it only measures emissions produced physically *within* national borders, ignoring consumption-based emissions embodied in imported goods and services, an important factor for high-import nations like Switzerland[span_14](start_span)[span_14](end_span)[span_15](start_span)[span_15](end_span)[span_16](start_span)[span_16](end_span).
 
-A plausible driver for Switzerland's long-term emissions decline is its heavy reliance on zero-carbon electricity generation (hydroelectric and nuclear power) combined with aggressive national policies under the Swiss CO2 Act, such as the thermal building insulation program and carbon levying on heating fuels (Swiss Federal Office for the Environment, 2022). 
-
-National emissions patterns are ecologically vital because cumulative global CO2 directly drives climate change, ocean acidification, and habitat disruption[span_12](start_span)[span_12](end_span)[span_13](start_span)[span_13](end_span). However, a key limitation of country-level territorial data is that it only measures emissions produced physically *within* national borders, ignoring consumption-based emissions embodied in imported goods and services—an important factor for high-import nations like Switzerland[span_14](start_span)[span_14](end_span)[span_15](start_span)[span_15](end_span)[span_16](start_span)[span_16](end_span).
 
 
 ## Limitations
